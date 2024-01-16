@@ -1,24 +1,41 @@
 <!DOCTYPE html>
 <html  style="font-size: 15px;font-family: Roboto, Arial, sans-serif;" lang="en">
 <head>
-<title>Game Jam</title>
+<title>Game Jam Submit</title>
 </head>
 
 <body style="background-color:LightGreen;">
-<h1>2024 Palms Game Jam</h1>
+<h1>Submit Game Jam</h1>
 
-<a href="techteamsite/index.html">Back to Main Page</a>
-
-<h2>What is this?</h2>
-<p>The 2024 Palms Game Jam is a game jam ran by the Tech Team. 
-Palms students will get 2 weeks to conceptualize, design, and create their games. When they are finished, they can submit their games below.</p>
+<a href="techteamsite/game_jam.html">Back to Game Jam page</a>
 </body>
-
+<br>
 <body>
-<h3> Links </h3>
-<a href="techteamsite/game_jam_sub.html">Submit a game</a><br>
-<a href="techteamsite/game_jam_list.html">Look at other people's games</a><br>
-
+<h3>↓ Submit your game ↓</h3>
+<form>
+<label for="gname"><b>Game Name:</b></label><br>
+  <input type="text" id="gname" name="gname"><br>
+  
+<p><b> Working OS(s): </b></p>
+  <input type="checkbox" id="windows" name="working_os_w" value="Windows">
+   <label for="working_os_w">Windows</label><br>
+   <input type="checkbox" id="mac" name="working_os_m" value="Mac">
+   <label for="working_os_m">Mac</label><br>
+   <input type="checkbox" id="linux" name="working_os_l" value="Linux">
+   <label for="working_os_l">Linux</label><br>
+   <br>
+ 
+<label for="cname"><b>Created By:</b></label><br>
+  <input type="text" id="cname" name="cname"><br>
+  
+  <br>
+  
+  <input type="file" id="gamefile" name="filename"><br>
+  
+  <br>
+  
+  <input type="submit">
+</form>
 </body>
 
 
